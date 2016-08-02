@@ -1,0 +1,29 @@
+/* Header */
+.mainHeader {
+	font-size: 1.2em;
+	font-family: verdana;
+	text-align: center;
+	color: black;
+	text-decoration: underline;
+	
+}
+
+/* Greeting*/
+#greeting {
+	font-style: italic;
+	padding: 25px;
+	text-align: center;
+	border: 25px bold green;
+}
+
+/* Enter weight */
+#entwt {
+	width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+
+body {
+	background-color: #ffcc80;
+}

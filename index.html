@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>I'm a spaceman!</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+	<h1 class="mainHeader">How Much Do I Weight...</h1>
+	<h3 id="greeting">Hey! Let's find out how much you weight on different planets</h3>
+	<div id="entwt">
+	<form> 
+	<!-- Add an input element for the user to enter their weight -->
+		<p>Please enter your weight here -</p>
+		<input type="text" id="wtEntered">
+		</form>
+	</div>	
+	<!-- Create a Select element for the user to select a planet, and the content inside of the option elements represents the name of the planets-->
+	<div>
+		<select id="planetOption">
+			<option id="planet" value="27.9">The Sun</option>
+			<option id="planet" value="0.377">Mercury</option>
+			<option id="planet" value="0.9032">Venus</option>
+			<option id="planet" value="1">Earth</option>
+			<option id="planet" value="0.1655">Moon</option>
+			<option id="planet" value="0.3895">Mars</option>
+			<option id="planet" value="2.640">Jupiter</option>
+			<option id="planet" value="1.139">Saturn</option>
+			<option id="planet" value="0.917">Uranus</option>
+			<option id="planet" value="1.148">Neptune</option>
+			<option id="planet" value="0.06">Pluto</option>
+		</select>
+	</div>
+	<!-- A button element for the user to calculate their weight based on the above inputs-->
+	<button type="button" id="button" onclick="calcWeight()">Find Out Your Weight</button>
+
+
+
+	<!-- P element to display the expecter output-->
+	<p id="finalWeight">You should weigh......</p>
+
+
+	<script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
